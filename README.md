@@ -1,9 +1,9 @@
-'''sudo su'''
-'apt update'
+```sudo su```
+```apt update```
 
-'curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh'
-'bash Miniconda3-latest-Linux-x86_64.sh -b'
-'source /root/miniconda3/bin/activate'
+```curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh'
+```bash Miniconda3-latest-Linux-x86_64.sh -b'
+```source /root/miniconda3/bin/activate'
 
 'pip install numpy pandas matplotlib seaborn scikit-learn'
 
