@@ -34,7 +34,7 @@ def give_names_to_indices(ind):
 data['Index'] = data['Index'].apply(give_names_to_indices)
 
 # Plot the relationship between Height and Weight
-sns.lmplot('Height', 'Weight', data, hue='Index', height=7, aspect=1, fit_reg=False)
+sns.lmplot(x='Height', y='Weight', data=data, hue='Index', height=7, aspect=1, fit_reg=False)
 
 # Count people by gender
 people = data['Gender'].value_counts()
